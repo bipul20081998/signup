@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(122, 202, 216);
+    
+}
+
+.parent {
+    height: 550px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.child {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 40px;
+}
+/* all styles for div child 1 */
+
+.child-1 {
+    background-color: rgba(51, 141, 201, 0.842);
+    color: whitesmoke;
+    
+}
+
+.hv-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bolder;
+}
+
+
+/* all styles for div child 2 */
+
+.child-2 {
+    background-color: white;
+    color: rgba(51, 141, 201, 0.842);
+    font-size: 15px;
+}
+
+/* name style */
+.name {
+    /* display: block; */
+    /* padding: 10px; */
+    color :black ;
+    /* height: 70px; */
+    display: flex;
+    box-sizing: border-box;
+}
+.fname {
+    /* margin-right: 5px; */
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+    /* border: 1px solid black; */
+    /* box-sizing: border-box; */
+    /* display: inline-block; */
+
+}
+.fname > input {
+    /* color: blue; */
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.lname {
+    /* margin-left: 5px; */
+    /* display: inline-block; */
+}
+.lname > input {
+    /* border-color: rgb(173, 120, 223); */
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* email */
+.email-container {
+    padding-top: 20px;
+    color: black;
+    
+}
+.email-container > input {
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.email-container > input {
+    height: 30px;
+    width: 95%;
+    margin-top: 10px;
+}
+
+/* password */
+.pass {
+    padding-top: 30px;
+    display: flex;
+    color: black;
+}
+
+.pass1 > input {
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.pass2 > input {
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.termnCondition {
+    padding-top: 20px;
+    color: black;
+}
+
+.reg-button {
+    
+ 
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    width: 75px;
+    background-color: rgba(51, 141, 201, 0.842);;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bolder;
+}
